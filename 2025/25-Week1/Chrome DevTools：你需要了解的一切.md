@@ -1,6 +1,4 @@
----
-- **标题** 
-- 修改后的标题：Chrome DevTools：你需要了解的一切
+Chrome DevTools：你需要了解的一切
 - 原文标题：Chrome DevTools: Everything You Need to Know
 - 链接：[https://dev.to/kevin-uehara/chrome-devtools-everything-you-need-to-know-51pk](https://dev.to/kevin-uehara/chrome-devtools-everything-you-need-to-know-51pk?context=digest)
 

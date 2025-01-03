@@ -1,6 +1,4 @@
----
-- **标题** 
-  - 修改后的标题：我最喜欢的电脑人体工程学技巧：DIY“蜂鸣器”
+我最喜欢的电脑人体工程学技巧：DIY“蜂鸣器”
   - 原文标题：My favourite computer ergonomics hack
   - 链接：[My favourite computer ergonomics hack](https://blog.jacobvosmaer.nl/0036-beeper/)
 

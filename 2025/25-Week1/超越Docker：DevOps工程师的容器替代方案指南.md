@@ -1,6 +1,4 @@
----
-- **标题** 
-- 修改后的标题：超越Docker：DevOps工程师的容器替代方案指南
+超越Docker：DevOps工程师的容器替代方案指南
 - 原文标题：Beyond Docker - A DevOps Engineer's Guide to Container Alternatives
 - 链接：[https://dev.to/cicube/beyond-docker-a-devops-engineers-guide-to-container-alternatives-4bk1?context=digest](https://dev.to/cicube/beyond-docker-a-devops-engineers-guide-to-container-alternatives-4bk1?context=digest)
 

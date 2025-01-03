@@ -1,5 +1,4 @@
----
-- **修改后的标题**：如何在本地运行大型语言模型（LLMs）
+如何在本地运行大型语言模型（LLMs）
 - **原文标题**：How I run LLMs locally
 - **链接**：[How I run LLMs locally - Abishek Muthian](https://abishekmuthian.com/how-i-run-llms-locally/)
 
