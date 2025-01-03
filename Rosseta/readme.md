@@ -14,21 +14,19 @@
 
 ## Align2Thinkers
 
-任务访谈的对话稿或内容概要
-
-### AI 相关人物
-
-- [一个技术乐观主义者眼中的AI - Jeff Dean访谈](Align2Thinkers/JeffDean/一个技术乐观主义者眼中的AI%20-%20Jeff%20Dean访谈.md)
+**演讲与访谈**
+- [Jeff Dean访谈: 一个技术乐观主义者眼中的AI](Align2Thinkers/JeffDean/一个技术乐观主义者眼中的AI%20-%20Jeff%20Dean访谈.md)
 - [黄仁勋访谈-斯坦福演讲](Align2Thinkers/Jensen_Huang_Stanford.md)
-
-## Quantum Magazine 文章系列
-
-[什么是“好的”数学？](./Rosseta_Quantum_Magazine/Terence_Tao_Good_Math.md)
+- [陶哲轩：机械辅助证明讲座](Align2Thinkers/TerenceTao/Terence_Tao_MAP.md)
+- [陶哲轩：什么是好的数学？](Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
+- [马克斯·韦伯：学术之为志业](Align2Thinkers/MaxWebber/学术之为志业.md)
 
 ## Grothendieck系列
 
 主要为一些Grothendieck相关的传记、评论和故事合集。
 
 Grothendieck是一位具有传奇色彩的数学家，在中文世界中，他是传说中的存在，但中文资料却并不多。事实上，有很多与他相关的法语文献。本项目主要就是将法语资料翻译并整理为中文文档。
+
+- [Grothendieck的秘密](Align2Thinkers/Grothendieck/Grothendieck的秘密.md)
 
 
