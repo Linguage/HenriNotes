@@ -20,6 +20,7 @@
 - [陶哲轩：机械辅助证明讲座](Align2Thinkers/TerenceTao/Terence_Tao_MAP.md)
 - [陶哲轩：什么是好的数学？](Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
 - [马克斯·韦伯：学术之为志业](Align2Thinkers/MaxWebber/学术之为志业.md)
+- [最好的文章](Align2Thinkers/PaulGraham/最好的文章.md)
 
 ## Grothendieck系列
 
