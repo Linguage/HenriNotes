@@ -5,7 +5,7 @@
 
 ## Rosseta
 
-- [翻译工作：访谈、文章](./Rosseta/readme.md)
+- [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
 
 ## 文章推荐
 
