@@ -22,6 +22,11 @@
 - [马克斯·韦伯：学术之为志业](Align2Thinkers/MaxWebber/学术之为志业.md)
 - [最好的文章](Align2Thinkers/PaulGraham/最好的文章.md)
 
+
+## 课程系列
+
+- [哈佛大学CS50](./CS50/readme.md)
+
 ## Grothendieck系列
 
 主要为一些Grothendieck相关的传记、评论和故事合集。
