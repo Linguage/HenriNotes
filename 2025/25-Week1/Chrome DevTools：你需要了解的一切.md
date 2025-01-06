@@ -10,7 +10,7 @@ Chrome DevTools：你需要了解的一切
 ### 文章信息
 - **作者**：Kevin Toshihiro Uehara
 - **发布日期**：2024年12月25日
-- **标签**：#devtools, #webdev, #frontend, #javascript
+- **标签**： #devtools , #webdev, #frontend, #javascript
 
 ### 正文内容
 这篇文章介绍了Chrome DevTools的主要功能和最新动态，适合初学者和有经验的开发者。以下是文章的主要内容整理：
