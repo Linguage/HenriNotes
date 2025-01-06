@@ -2,10 +2,15 @@
 ## 趣味资料
 
 - [帝王年表](WhatsMore/帝王年表/帝王年表.md)
+- [隋唐大运河对鸟类种群的生态影响](STORM-业余研究报告/隋唐大运河对鸟类种群的生态影响/隋唐大运河对鸟类种群的生态影响.md)
+- [2025年航空货运市场变化预测，聚焦中国](STORM-业余研究报告/2025年航空货运市场变化预测/2025年航空货运市场变化预测，聚焦中国.md)
 
 ## Rosseta
 
 - [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
+	- [CS50x 2025 - Lecture 0 - Scratch](Rosseta/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
+	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
+	- [保罗·格雷厄姆：最好的文章](Rosseta/Align2Thinkers/PaulGraham/最好的文章.md)
 
 ## 文章推荐
 
