@@ -66,4 +66,4 @@
 
 在此感谢小伙伴们的支持（尤其是早期开始关注此项目的朋友）。在此处列出他们的昵称：
 - Pluuuuuto
-- Plancking
+- Plancking Lee
