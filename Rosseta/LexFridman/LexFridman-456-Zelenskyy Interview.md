@@ -1,5 +1,6 @@
 LexFridman-456-Zelenskyy Interview: War, Peace, and Trump
 
+![](attachments/Pasted%20image%2020250106201240.png)
 
 **内容简介**： [泽连斯基总统访谈实录：乌克兰、战争、和平与未来](../../2025/25-Week2/泽连斯基总统访谈实录：乌克兰、战争、和平与未来.md)
 
