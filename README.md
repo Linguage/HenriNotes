@@ -1,20 +1,22 @@
 
-## 我使用的工具
+## 我使用的工具与资源
 
 **工具**
- - Google AI Studio
+ - Google AI Studio：文本内容提炼与翻译
  - ChatGPT
- - Kimi Copilot（Chrome插件）
- - Elmo （Chrome插件）
- - Obsidian：文本编辑
+ - 斯坦福大学STORM：“业余研究报告”项目的报告生成
+ - Kimi Copilot（Chrome插件）: 文章内容提炼
+ - Elmo Chat（Chrome插件）：视频脚本内容提炼
+ - Obsidian：文本编辑、数据库
+ - Zotero：数据库
 
 **资料来源**
 
-- 邮件订阅
-- 博客
-- 微信公众号
-- YouTube频道
-- B站频道
+- 邮件订阅与RSS订阅
+- 博客与微信公众号
+- 社交媒体平台：
+	- YouTube频道
+	- BiliBili频道
 - 论文库
 
 
