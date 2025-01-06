@@ -1,4 +1,23 @@
 
+## 我使用的工具
+
+**工具**
+ - Google AI Studio
+ - ChatGPT
+ - Kimi Copilot（Chrome插件）
+ - Elmo （Chrome插件）
+ - Obsidian：文本编辑
+
+**资料来源**
+
+- 邮件订阅
+- 博客
+- 微信公众号
+- YouTube频道
+- B站频道
+- 论文库
+
+
 ## 趣味资料
 
 - [帝王年表](WhatsMore/帝王年表/帝王年表.md)
@@ -10,6 +29,7 @@
 ## Rosseta
 
 - [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
+	- [LexFridman#456：Zelenskyy Interview](Rosseta/LexFridman/LexFridman-456-Zelenskyy%20Interview.md)
 	- [CS50x 2025 - Lecture 0 - Scratch](Rosseta/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
 	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
 	- [保罗·格雷厄姆：最好的文章](Rosseta/Align2Thinkers/PaulGraham/最好的文章.md)
