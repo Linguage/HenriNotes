@@ -52,6 +52,11 @@
 	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
 	- [保罗·格雷厄姆：最好的文章](Rosseta/Align2Thinkers/PaulGraham/最好的文章.md)
 
+## 工具性资料
+
+- Prompts
+	- [文献阅读神器（基于Kimi）：Paper_read_v3](WorkFlow/Prompts-Academic/Paper_read_v3.md)
+
 ## 我使用的工具与资源
 
 **工具**
