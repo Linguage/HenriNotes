@@ -1,6 +1,6 @@
 Google AI 智能体白皮书：构建智能未来  
   原文标题：构建智能未来：Google AI 智能体白皮书  
-  链接：https://mp.weixin.qq.com/s/oq7I6Y5QtLSMsPtaRzR_uw
+  链接：[微信](https://mp.weixin.qq.com/s/oq7I6Y5QtLSMsPtaRzR_uw)
 
 - **文章类别**：白皮书
 
@@ -136,5 +136,5 @@ Google AI 智能体白皮书：构建智能未来
     │   ├── 通过工具访问实时信息和执行复杂任务
     │   └── 未来发展潜力巨大，解决更复杂问题
     └── 尾注 (References)
-            └── 引用关于智能体推理和行动技术的研究论文
+        └── 引用关于智能体推理和行动技术的研究论文
 ```
