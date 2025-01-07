@@ -5,8 +5,6 @@ NVIDIA CEO Jensen Huang在CES 2025上的主题演讲
 
 - **文章类别**：新闻报道
 
-![](attachments/Pasted%20image%2020250107235916.png)
-
 ---
 
 ## 内容整理
@@ -44,9 +42,6 @@ NVIDIA CEO Jensen Huang在CES 2025上的主题演讲
 - **技术突破与创新展示**：通过RTX 5090系列显卡的发布，展示了NVIDIA在高性能计算和AI应用方面的最新成果。
 - **对未来技术的深刻洞察**：Jensen Huang不仅介绍了当前的技术进展，还对AI和图形技术的未来发展进行了深入的分析和展望.
 - **丰富的应用实例**：通过多个领域的应用实例，展示了AI技术在实际应用中的巨大潜力和价值.
-
-![](attachments/project-digits.png)
-
 
 ---
 ## More
