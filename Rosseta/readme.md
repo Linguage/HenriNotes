@@ -17,7 +17,7 @@
 
 **演讲与访谈**
 - [Jeff Dean访谈: 一个技术乐观主义者眼中的AI](Align2Thinkers/JeffDean/一个技术乐观主义者眼中的AI%20-%20Jeff%20Dean访谈.md)
-- [黄仁勋访谈-斯坦福演讲](Align2Thinkers/Jensen_Huang_Stanford.md)
+- [黄仁勋访谈-斯坦福演讲](Companies/Jensen_Huang_Stanford.md)
 - [陶哲轩：机械辅助证明讲座](Align2Thinkers/TerenceTao/Terence_Tao_MAP.md)
 - [陶哲轩：什么是好的数学？](Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
 - [马克斯·韦伯：学术之为志业](Align2Thinkers/MaxWebber/学术之为志业.md)
