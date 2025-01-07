@@ -5,6 +5,8 @@ NVIDIA CEO Jensen Huang在CES 2025上的主题演讲
 
 - **文章类别**：新闻报道
 
+![](attachments/Pasted%20image%2020250107235916.png)
+
 ---
 
 ## 内容整理
@@ -42,6 +44,9 @@ NVIDIA CEO Jensen Huang在CES 2025上的主题演讲
 - **技术突破与创新展示**：通过RTX 5090系列显卡的发布，展示了NVIDIA在高性能计算和AI应用方面的最新成果。
 - **对未来技术的深刻洞察**：Jensen Huang不仅介绍了当前的技术进展，还对AI和图形技术的未来发展进行了深入的分析和展望.
 - **丰富的应用实例**：通过多个领域的应用实例，展示了AI技术在实际应用中的巨大潜力和价值.
+
+![](attachments/project-digits.png)
+
 
 ---
 ## More
@@ -95,7 +100,7 @@ NVIDIA CEO 黄仁勋在CES 2025上的主题演讲
 │   │   ├── 发布 Nvidia Llama Neotron 语言模型，基于 Llama 3.1，针对企业应用进行了优化。
 │   │   └── 介绍 Nvidia 与合作伙伴在 Agentic AI 领域的合作，包括 Service Now、SAP、西门子、Cadence、Perplexity、Codium 等。
 │   └── 展示 Agentic AI 的应用案例 (1:20:42 - 1:23:23)
-│       ├── AI 研究助理、天气预报、软件安全、虚拟实验室、分析 AI 等。
+│       └──  AI 研究助理、天气预报、软件安全、虚拟实验室、分析 AI 等。
 ├── 五、AI 与 Windows PC 的结合 (1:23:23 - 1:28:33)
 │   ├── AI 在云端和设备端的应用 (1:23:23 - 1:24:19)
 │   ├── 将 AI 引入 Windows PC 的愿景 (1:24:19 - 1:25:29)
