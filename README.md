@@ -70,14 +70,18 @@
 
 - Prompts
 	- [文献阅读神器（基于Kimi）：Paper_read_v3](WorkFlow/Prompts-Academic/Paper_read_v3.md)
+	- [Kimi-Copilot-Prompts](WorkFlow/DailyUse/Kimi-Copilot-Prompts.md)
+	- [视频脚本处理方法](WorkFlow/DailyUse/视频脚本处理方法.md)
 
 ## 我使用的工具与资源
 
 **工具**
  - Google AI Studio：文本内容提炼与翻译
+	 - [Prompts-视频脚本处理方法](WorkFlow/DailyUse/视频脚本处理方法.md)
  - ChatGPT
  - 斯坦福大学STORM：“业余研究报告”项目的报告生成
- - Kimi Copilot（Chrome插件）: 文章内容提炼
+ - Kimi Copilot（Chrome插件）: 文章内容提炼，见
+	 - [Prompts](WorkFlow/DailyUse/Kimi-Copilot-Prompts.md)
  - Elmo Chat（Chrome插件）：视频脚本内容提炼
  - Obsidian：文本编辑、数据库
  - Zotero：数据库
@@ -90,6 +94,11 @@
 	- YouTube频道
 	- BiliBili频道
 - 论文库
+
+## 项目基本信息
+
+- 创建时间：2025年1月3日
+
 
 ## 鸣谢
 
