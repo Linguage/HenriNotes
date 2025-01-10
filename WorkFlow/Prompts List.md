@@ -1,0 +1,2 @@
+- [Kimi-Copilot-Prompts](DailyUse/Kimi-Copilot-Prompts.md)
+- [Paper_read_v3](Prompts-Academic/Paper_read_v3.md)
