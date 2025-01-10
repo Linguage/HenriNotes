@@ -45,7 +45,8 @@ Jeff Dean与Sanjay Ghemawat：谷歌背后的编程传奇
     └── 新AI项目，训练巨型机器学习模型的尝试
 ```
 
-**文章标签**：#Jeff Dean ， #Sanjay Ghemawat ， #谷歌 ， #编程合作 ， #人工智能
+**文章标签**：
+#JeffDean ， #SanjayGhemawat ， #谷歌 ， #编程合作 ， #人工智能
 
 ---
 
