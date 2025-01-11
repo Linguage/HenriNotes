@@ -10,7 +10,9 @@
 
 最先做的一个访谈为第62期，Lex对图灵奖得主，TAOCP的作者，Donald Knuth(高德纳)。
 
-- [LexFridman#456: Zelenskyy Interview](LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
+- [Lex456-泽连斯基（Zelenskyy） 访谈录](LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
+- [Lex62-高德纳（Donald Knuth）访谈1](LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
+- [Lex219-高德纳（Donald Knuth）访谈2](LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
 
 
 ## Align2Thinkers
