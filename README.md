@@ -8,6 +8,7 @@
 
 - **视频与播客**
 	- [Lex Fridman播客：泽连斯基总统访谈实录：乌克兰、战争、和平与未来](2025/25-Week2/泽连斯基总统访谈实录：乌克兰、战争、和平与未来.md)
+	- [Mark Zuckerberg访谈录 - Jor Rogan](2025/25-Week2/Mark%20Zuckerberg访谈录%20-%20Jor%20Rogan.md)
 	- [NVIDIA CEO 黄仁勋在CES 2025上的主题演讲](2025/25-Week2/NVIDIA%20CEO%20黄仁勋在CES%202025上的主题演讲.md)
 	- [2024年AI信仰之战：硅谷的技术与商业策略](2025/25-Week2/2024年AI信仰之战：硅谷的技术与商业策略.md)
 	- [史蒂夫·乔布斯1983年国际设计大会演讲](2025/25-Week2/史蒂夫·乔布斯1983年国际设计大会演讲.md)
@@ -66,6 +67,7 @@
 
 - [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
 	- [LexFridman#456：Zelenskyy Interview](Rosseta/LexFridman/LexFridman-456-Zelenskyy%20Interview.md)
+	- [高德纳口述历史](Rosseta/Align2Thinkers/Knuth/高德纳口述历史.md)
 	- [CS50x 2025 - Lecture 0 - Scratch](Rosseta/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
 	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
 	- [保罗·格雷厄姆：最好的文章](Rosseta/Align2Thinkers/PaulGraham/最好的文章.md)
