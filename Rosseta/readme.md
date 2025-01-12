@@ -13,6 +13,7 @@
 - [Lex456-泽连斯基（Zelenskyy） 访谈录](LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
 - [Lex62-高德纳（Donald Knuth）访谈1](LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
 - [Lex219-高德纳（Donald Knuth）访谈2](LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
+- [Lex416-杨立昆（Yann Lecun）访谈3](LexFridman/Lex416-杨立昆（Yann%20Lecun）访谈3.md)
 
 
 ## Align2Thinkers
