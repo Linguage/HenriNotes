@@ -70,6 +70,7 @@
 	- [Lex62-高德纳（Donald Knuth）访谈1](Rosseta/LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
 	- [Lex219-高德纳（Donald Knuth）访谈2](Rosseta/LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
 	- [Lex333-Andrej Karpathy](Rosseta/LexFridman/Lex333-Andrej%20Karpathy.md)
+	- [Lex309 - 约翰·卡马克（John Carmack）](Rosseta/LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
 	- [高德纳口述历史](Rosseta/Align2Thinkers/Knuth/高德纳口述历史.md)
 	- [CS50x 2025 - Lecture 0 - Scratch](Rosseta/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
 	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)

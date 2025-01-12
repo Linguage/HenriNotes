@@ -15,6 +15,7 @@
 - [Lex219-高德纳（Donald Knuth）访谈2](LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
 - [Lex416-杨立昆（Yann Lecun）访谈3](LexFridman/Lex416-杨立昆（Yann%20Lecun）访谈3.md)
 - [Lex333-Andrej Karpathy](LexFridman/Lex333-Andrej%20Karpathy.md)
+- [Lex309 - 约翰·卡马克（John Carmack）](LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
 
 
 ## Align2Thinkers
