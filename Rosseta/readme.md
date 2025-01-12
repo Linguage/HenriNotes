@@ -14,6 +14,7 @@
 - [Lex62-高德纳（Donald Knuth）访谈1](LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
 - [Lex219-高德纳（Donald Knuth）访谈2](LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
 - [Lex416-杨立昆（Yann Lecun）访谈3](LexFridman/Lex416-杨立昆（Yann%20Lecun）访谈3.md)
+- [Lex333-Andrej Karpathy](LexFridman/Lex333-Andrej%20Karpathy.md)
 
 
 ## Align2Thinkers
