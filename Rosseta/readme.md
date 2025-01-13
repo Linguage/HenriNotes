@@ -16,6 +16,7 @@
 - [Lex416-杨立昆（Yann Lecun）访谈3](LexFridman/Lex416-杨立昆（Yann%20Lecun）访谈3.md)
 - [Lex333-Andrej Karpathy](LexFridman/Lex333-Andrej%20Karpathy.md)
 - [Lex309 - 约翰·卡马克（John Carmack）](LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
+- [Lex70-Jim Keller访谈1](LexFridman/Lex70-Jim%20Keller访谈1.md)
 
 
 ## Align2Thinkers
