@@ -6,9 +6,7 @@
 
 ### Week 3，2025
 - 视频与播客
-	- [Lex70-Jim Keller访谈1](Rosseta/LexFridman/Lex70-Jim%20Keller访谈1.md)
-	- [Lex333-Andrej Karpathy](Rosseta/LexFridman/Lex333-Andrej%20Karpathy.md)
-	- [Lex309 - 约翰·卡马克（John Carmack）](Rosseta/LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
+
 - **文章**
 	- [NVIDIA在Agentic AI时代的雄心与技术革命](2025/25-Week3/NVIDIA在Agentic%20AI时代的雄心与技术革命.md)
 	- [詹姆斯·韦伯空间望远镜快速事实](2025/25-Week3/詹姆斯·韦伯空间望远镜快速事实.md)
@@ -58,13 +56,17 @@
 
 ## Rosseta
 
-- [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
-	- [Lex456-泽连斯基（Zelenskyy） 访谈录](Rosseta/LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
+
+ - Lex Fridman 访谈录
+	 - [Lex456-泽连斯基（Zelenskyy） 访谈录](Rosseta/LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
 	- [Lex62-高德纳（Donald Knuth）访谈1](Rosseta/LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
 	- [Lex219-高德纳（Donald Knuth）访谈2](Rosseta/LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
 	- [Lex333-Andrej Karpathy](Rosseta/LexFridman/Lex333-Andrej%20Karpathy.md)
 	- [Lex309 - 约翰·卡马克（John Carmack）](Rosseta/LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
-	- [Lex70-Jim Keller访谈1](Rosseta/LexFridman/Lex70-Jim%20Keller访谈1.md)
+	- [Lex70-Jim Keller访谈1 - 摩尔定律、微处理器与第一性原理](Rosseta/LexFridman/Lex70-Jim%20Keller访谈1%20-%20摩尔定律、微处理器与第一性原理.md)
+	- [Lex162-Jim Keller访谈2 - 计算、人工智能、生命和意识的未来](Rosseta/LexFridman/Lex162-Jim%20Keller访谈2%20-%20计算、人工智能、生命和意识的未来.md)
+
+- [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
 	- [高德纳口述历史](Rosseta/Align2Thinkers/Knuth/高德纳口述历史.md)
 	- [CS50x 2025 - Lecture 0 - Scratch](Rosseta/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
 	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
