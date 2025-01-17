@@ -8,6 +8,7 @@
 ### Week 3，2025
 - 视频与播客
 	- [2024年诺贝尔物理学奖得主John Hopfield和Geoffrey Hinton的讲座](2025/25-Week3/2024年诺贝尔物理学奖得主John%20Hopfield和Geoffrey%20Hinton的讲座.md)
+	- [技术变革与公司兴衰：Jim Keller的见解](2025/25-Week3/技术变革与公司兴衰：Jim%20Keller的见解.md)
 	- [成功人士为何钟爱设定目标](2025/25-Week3/成功人士为何钟爱设定目标.md)
 	- [面对缺乏动力-Just do it：直面内心的恐惧](2025/25-Week3/面对缺乏动力-Just%20do%20it：直面内心的恐惧.md)
 	- [疯狂熬夜多久会死？以及如何快速入睡？](2025/25-Week3/疯狂熬夜多久会死？以及如何快速入睡？.md)
