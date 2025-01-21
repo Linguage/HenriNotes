@@ -5,6 +5,12 @@
 
 此处推荐个人认为比较值得一读的文章
 
+### Week 4，2025
+
+- 文章
+	- [俄罗斯和乌克兰知名软件概览](2025/25-Week4/俄罗斯和乌克兰知名软件概览.md)
+	- 
+
 ### Week 3，2025
 - 视频与播客
 	- [2024年诺贝尔物理学奖得主John Hopfield和Geoffrey Hinton的讲座](2025/25-Week3/2024年诺贝尔物理学奖得主John%20Hopfield和Geoffrey%20Hinton的讲座.md)
