@@ -89,7 +89,7 @@ DeepSeek的愿景与美国同行一样，是实现通用人工智能（AGI）。
 
 其次，这件事是否证明中国已经超越或即将超越美国？如果是这样，这是否意味着威权主义、自上而下的制度（或詹姆斯·罗宾逊和我所说的“榨取性制度”）下的创新可以媲美甚至超过自下而上的创新？
 
-我倾向于认为创新受到自上而下的控制的阻碍，正如詹姆斯·罗宾逊和我在[《国家为何失败：》 ](https://amazon.com/Why-Nations-Fail-Origins-Prosperity/dp/0307719227/和《狭窄的走廊》 https://amazon.com/Narrow-Corridor-States-Societies-Liberty/dp/0735224404/中所论述的那样。)
+我倾向于认为创新受到自上而下的控制的阻碍，正如詹姆斯·罗宾逊和我在[《国家为何失败：》 ](https://amazon.com/Why-Nations-Fail-Origins-Prosperity/dp/0307719227/)和[《狭窄的走廊》]( https://amazon.com/Narrow-Corridor-States-Societies-Liberty/dp/0735224404/)中所论述的那样。
 
 但我承认现在有这种可能性。我们只能拭目以待。
 
