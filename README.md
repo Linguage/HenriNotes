@@ -43,6 +43,7 @@
 
 
  - Lex Fridman 访谈录
+	 - [Lex459 - DeepSeek、AI技术发展与中美竞争](Rosseta/LexFridman/Lex459%20-%20DeepSeek、AI技术发展与中美竞争.md)
 	 - [Lex458 - Marc Andreessen：特朗普、权力、科技、AI、移民与美国的未来](Rosseta/LexFridman/Lex458%20-%20Marc%20Andreessen：特朗普、权力、科技、AI、移民与美国的未来.md)
 	 - [Lex456-泽连斯基（Zelenskyy） 访谈录](Rosseta/LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
 	- [Lex62-高德纳（Donald Knuth）访谈1](Rosseta/LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
