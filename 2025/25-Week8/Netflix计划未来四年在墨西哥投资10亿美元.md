@@ -1,6 +1,6 @@
 Netflix计划未来四年在墨西哥投资10亿美元  
   原文标题：Netflix to invest $1 billion in Mexico over next 4 years  
-  链接：https://www.reuters.com/business/media-telecom/netflix-invest-1-billion-mexico-over-next-4-years-2025-02-20/  
+  链接：[路透社](https://www.reuters.com/business/media-telecom/netflix-invest-1-billion-mexico-over-next-4-years-2025-02-20/  )
 
 - **文章类别**：新闻报道  
 
