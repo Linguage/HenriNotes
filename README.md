@@ -58,9 +58,9 @@
 	- [Lex162-Jim Keller访谈2 - 计算、人工智能、生命和意识的未来](Rosseta/LexFridman/Lex162-Jim%20Keller访谈2%20-%20计算、人工智能、生命和意识的未来.md)
 
 - [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
-	- [高德纳口述历史](Rosseta/Align2Thinkers/Knuth/高德纳口述历史.md)
+	- [高德纳口述历史](Rosseta/图灵奖计划/Knuth/高德纳口述历史.md)
 	- [CS50x 2025 - Lecture 0 - Scratch](Rosseta/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
-	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/TerenceTao/Terence_Tao_Good_Math.md)
+	- [Terence_Tao_Good_Math](Rosseta/菲尔兹计划/TerenceTao/Terence_Tao_Good_Math.md)
 	- [保罗·格雷厄姆：最好的文章](Rosseta/Align2Thinkers/PaulGraham/最好的文章.md)
 
 ## 工具性资料
