@@ -26,7 +26,7 @@
 - [Jeff Dean访谈: 一个技术乐观主义者眼中的AI](Align2Thinkers/JeffDean/一个技术乐观主义者眼中的AI%20-%20Jeff%20Dean访谈.md)
 - [黄仁勋访谈-斯坦福演讲](Companies/Jensen_Huang_Stanford.md)
 - [陶哲轩：机械辅助证明讲座](Align2Thinkers/TerenceTao/Terence_Tao_MAP.md)
-- [陶哲轩：什么是好的数学？](菲尔兹计划/TerenceTao/Terence_Tao_Good_Math.md)
+- [陶哲轩：什么是好的数学？](Align2Thinkers/菲尔兹计划/TerenceTao/Terence_Tao_Good_Math.md)
 - [马克斯·韦伯：学术之为志业](Align2Thinkers/MaxWebber/学术之为志业.md)
 - [最好的文章](Align2Thinkers/PaulGraham/最好的文章.md)
 
@@ -41,6 +41,6 @@
 
 Grothendieck是一位具有传奇色彩的数学家，在中文世界中，他是传说中的存在，但中文资料却并不多。事实上，有很多与他相关的法语文献。本项目主要就是将法语资料翻译并整理为中文文档。
 
-- [Grothendieck的秘密](菲尔兹计划/Grothendieck/Grothendieck的秘密.md)
+- [Grothendieck的秘密](Align2Thinkers/菲尔兹计划/Grothendieck/Grothendieck的秘密.md)
 
 
