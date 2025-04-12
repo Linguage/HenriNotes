@@ -13,3 +13,6 @@
 - 柏原正树
 	- [柏原正树的生平与研究风格](https://linguista.bearblog.dev/masaki-kashiwara-abel-2025/)
 	- [柏原正树-2025阿贝尔奖](https://linguista.bearblog.dev/abel-2025-masaki-kashiwara/)
+- Peter Scholze
+	- [Interview at CIRM : Peter Scholze](https://linguista.bearblog.dev/cirm-peter-scholze-2018/)
+	- [QuantaMagazine：算术的神谕](https://linguista.bearblog.dev/peter-scholze-quantamagazine-2016/)

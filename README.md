@@ -47,21 +47,21 @@
 
 
  - Lex Fridman 访谈录
-	 - [Lex459 - DeepSeek、AI技术发展与中美竞争](Rosseta/LexFridman/Lex459%20-%20DeepSeek、AI技术发展与中美竞争.md)
-	 - [Lex458 - Marc Andreessen：特朗普、权力、科技、AI、移民与美国的未来](Rosseta/LexFridman/Lex458%20-%20Marc%20Andreessen：特朗普、权力、科技、AI、移民与美国的未来.md)
-	 - [Lex456-泽连斯基（Zelenskyy） 访谈录](Rosseta/LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
-	- [Lex62-高德纳（Donald Knuth）访谈1](Rosseta/LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
-	- [Lex219-高德纳（Donald Knuth）访谈2](Rosseta/LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
-	- [Lex333-Andrej Karpathy](Rosseta/LexFridman/Lex333-Andrej%20Karpathy.md)
-	- [Lex309 - 约翰·卡马克（John Carmack）](Rosseta/LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
-	- [Lex70-Jim Keller访谈1 - 摩尔定律、微处理器与第一性原理](Rosseta/LexFridman/Lex70-Jim%20Keller访谈1%20-%20摩尔定律、微处理器与第一性原理.md)
-	- [Lex162-Jim Keller访谈2 - 计算、人工智能、生命和意识的未来](Rosseta/LexFridman/Lex162-Jim%20Keller访谈2%20-%20计算、人工智能、生命和意识的未来.md)
+	 - [Lex459 - DeepSeek、AI技术发展与中美竞争](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex459%20-%20DeepSeek、AI技术发展与中美竞争.md)
+	 - [Lex458 - Marc Andreessen：特朗普、权力、科技、AI、移民与美国的未来](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex458%20-%20Marc%20Andreessen：特朗普、权力、科技、AI、移民与美国的未来.md)
+	 - [Lex456-泽连斯基（Zelenskyy） 访谈录](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
+	- [Lex62-高德纳（Donald Knuth）访谈1](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
+	- [Lex219-高德纳（Donald Knuth）访谈2](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
+	- [Lex333-Andrej Karpathy](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex333-Andrej%20Karpathy.md)
+	- [Lex309 - 约翰·卡马克（John Carmack）](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
+	- [Lex70-Jim Keller访谈1 - 摩尔定律、微处理器与第一性原理](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex70-Jim%20Keller访谈1%20-%20摩尔定律、微处理器与第一性原理.md)
+	- [Lex162-Jim Keller访谈2 - 计算、人工智能、生命和意识的未来](../AI-Rosseta/Rosseta_Notes/LexFridman/Lex162-Jim%20Keller访谈2%20-%20计算、人工智能、生命和意识的未来.md)
 
 - [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
-	- [高德纳口述历史](Rosseta/Align2Thinkers/图灵奖计划/Knuth/高德纳口述历史.md)
-	- [CS50x 2025 - Lecture 0 - Scratch](Rosseta/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
-	- [Terence_Tao_Good_Math](Rosseta/Align2Thinkers/菲尔兹计划/TerenceTao/Terence_Tao_Good_Math.md)
-	- [保罗·格雷厄姆：最好的文章](Rosseta/Align2Thinkers/PaulGraham/最好的文章.md)
+	- [高德纳口述历史](../AI-Rosseta/Rosseta_Notes/Align2Thinkers/图灵奖计划/Knuth/高德纳口述历史.md)
+	- [CS50x 2025 - Lecture 0 - Scratch](../AI-Rosseta/Rosseta_Notes/Courses/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
+	- [Terence_Tao_Good_Math](../AI-Rosseta/Rosseta_Notes/Align2Thinkers/菲尔兹计划/TerenceTao/Terence_Tao_Good_Math.md)
+	- [保罗·格雷厄姆：最好的文章](../AI-Rosseta/Rosseta_Notes/Align2Thinkers/PaulGraham/最好的文章.md)
 
 ## 工具性资料
 
