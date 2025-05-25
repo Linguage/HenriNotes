@@ -1,18 +1,12 @@
-- 保罗·狄拉克
-	- 访谈：[1982年接受的一次采访](https://linguista.bearblog.dev/pau-dirac-1982/)
-	- 纪录片： [反对主流的沉默天才](https://linguista.bearblog.dev/personreview-paul-dirac/)
-- June Huh
-	- [June Huh的数学之路：从诗人到菲尔兹奖得主](https://linguista.bearblog.dev/june-huh-quanta-magazine-2022/)
-- 约翰·纳什
-	- [约翰·纳什：美丽心灵之外的非凡与挣扎](https://linguista.bearblog.dev/johnnash-bio-from-villani2016/)
-	- [维拉尼的演讲：约翰·纳什的非凡定理](https://linguista.bearblog.dev/c%C3%A9dricvillani2016-johnnash/)
-	- [约翰·纳什获得Abel奖访谈-2015](https://linguista.bearblog.dev/abel-2015-johnnash/)
-	- [约翰纳什访谈-获得诺奖前后的生活](https://linguista.bearblog.dev/john-nash-nobel-life-2015/)
-- 佩雷尔曼
-	- [佩雷尔曼的非凡人生与成就](https://linguista.bearblog.dev/perelman-2010/)
-- 柏原正树
-	- [柏原正树的生平与研究风格](https://linguista.bearblog.dev/masaki-kashiwara-abel-2025/)
-	- [柏原正树-2025阿贝尔奖](https://linguista.bearblog.dev/abel-2025-masaki-kashiwara/)
-- Peter Scholze
-	- [Interview at CIRM : Peter Scholze](https://linguista.bearblog.dev/cirm-peter-scholze-2018/)
-	- [QuantaMagazine：算术的神谕](https://linguista.bearblog.dev/peter-scholze-quantamagazine-2016/)
+
+
+Linguista 的阅读空间，是一个专注于分享深度思考和前沿知识的个人博客，内容广泛涉及科技、科学、人文与实践等多个领域。
+
+**专题简介：**
+
+*   **人工智能前沿：** 追踪 AI 领域的最新动态、核心技术解读、专家观点以及实际应用探讨。
+*   **数学星空：大师与思想：** 介绍数学家们的生平事迹、重要思想理论以及数学学科的魅力。
+*   **代码、工程与技艺：** 分享软件开发、编程工具、工程实践方法和关于技术职业的思考。
+*   **经济洞察与投资哲学：** 关注宏观经济、市场趋势分析，并分享投资大师和商业领袖的智慧。
+*   **深度访谈与思想激荡：** 收录与各领域杰出人物的对话实录，传递他们的见解与经验。
+*   **科学探索与人生智慧：** 涵盖更广泛的科学知识、学习研究方法、人生经验分享及社会观察。
