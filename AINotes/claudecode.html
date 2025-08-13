@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI编程工具底层逻辑深度剖析</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- 
+    Infographic Narrative & Structure Plan:
+    1.  Introduction: AI's impact on coding. Big stat hook.
+    2.  Foundations: How AI learns code (LLM, Training process). HTML/CSS flowchart.
+    3.  Core Comparison (Claude vs. Cursor): Two-column layout. Line chart for context growth, HTML/CSS diagram for indexing.
+    4.  Market Landscape: Donut chart for interaction paradigms.
+    5.  Head-to-Head Comparison: Radar chart and summary table.
+    6.  Challenges: Grid of cards for Security, Hallucinations, etc. Bar chart for risks.
+    7.  Future Outlook: HTML/CSS timeline and stacked bar chart for developer role shift.
+
+    Visualization Selection Plan (Confirming NO SVG / NO Mermaid JS):
+    -   Big Number (Productivity): Inform -> HTML/CSS.
+    -   Training Flowchart: Organize -> HTML/CSS with Tailwind. NO SVG/Mermaid.
+    -   Context Window Growth: Change -> Line Chart -> Chart.js (Canvas). NO SVG.
+    -   Indexing Flowchart: Organize -> HTML/CSS with Tailwind. NO SVG/Mermaid.
+    -   Market Share: Compare -> Donut Chart -> Chart.js (Canvas). NO SVG.
+    -   Tool Comparison: Compare -> Radar Chart -> Chart.js (Canvas). NO SVG.
+    -   Challenges Ranking: Compare -> Bar Chart -> Chart.js (Canvas). NO SVG.
+    -   Evolution Timeline: Change -> HTML/CSS with Tailwind. NO SVG/Mermaid.
+    -   Role Shift: Compare -> Stacked Bar Chart -> Chart.js (Canvas). NO SVG.
+    -   All other elements are standard HTML styled with Tailwind.
+
+    Color Palette Selection:
+    -   Chosen Palette: "Brilliant Blues". It offers a professional, tech-oriented, and vibrant aesthetic suitable for the topic.
+    -->
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #F0F4F8;
+            color: #1E293B;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 384px;
+            }
+        }
+        .flowchart-node {
+            border: 2px solid #38BDF8;
+            background-color: #fff;
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .flowchart-arrow {
+            position: relative;
+            width: 2rem;
+            height: 2px;
+            background-color: #0EA5E9;
+            margin: 0 0.5rem;
+        }
+        .flowchart-arrow::after {
+            content: '';
+            position: absolute;
+            right: -2px;
+            top: -4px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid #0EA5E9;
+        }
+         .timeline-item {
+            position: relative;
+            padding-bottom: 2rem;
+            padding-left: 2.5rem; 
+            border-left: 3px solid #38BDF8;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -11px;
+            top: 0;
+            height: 20px;
+            width: 20px;
+            background-color: #0EA5E9;
+            border-radius: 50%;
+            border: 3px solid #F0F4F8;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+        
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4">AI编程工具底层逻辑深度剖析</h1>
+            <p class="text-xl text-slate-600">以Claude和Cursor为例，透视代码生成技术的现在与未来</p>
+        </header>
+
+        <main class="space-y-20">
+
+            <section id="introduction">
+                <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+                    <p class="text-lg text-slate-600 mb-4">AI助手驱动的开发效率提升</p>
+                    <p class="text-7xl md:text-8xl font-bold text-sky-500">
+                        高达 55%
+                    </p>
+                    <p class="mt-4 text-slate-500 max-w-2xl mx-auto">
+                        研究表明，AI编程工具显著缩短了开发周期，将开发者从重复性任务中解放出来，使其更专注于架构设计与创新。软件开发正从传统的手动编码，向人机协作的新范式演进。
+                    </p>
+                </div>
+            </section>
+
+            <section id="foundations">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">基石：驱动AI的代码大型语言模型(LLM)</h2>
+                    <p class="mt-2 text-lg text-slate-600">一切始于强大的基础模型，它们通过学习全球代码的模式与结构来获得能力。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <h3 class="text-2xl font-semibold text-slate-700 mb-6 text-center">模型的进化之路：从海量数据到专业助手</h3>
+                    <p class="text-center text-slate-500 mb-8 max-w-3xl mx-auto">AI编码工具的诞生并非一蹴而就，它遵循一个严谨的“训练-微调”流程。此流程将一个通用的、基于概率预测的语言模型，转化为一个能够理解复杂指令、遵循逻辑并生成高质量代码的专业化工具。</p>
+                    <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                        <div class="flowchart-node">
+                            <h4 class="font-bold">1. 预训练 (Pre-training)</h4>
+                            <p class="text-sm text-slate-500">在包含亿万行代码的<br>全球数据上学习通用模式</p>
+                        </div>
+                        <div class="flowchart-arrow hidden md:block"></div>
+                        <div class="w-px h-8 bg-sky-500 md:hidden"></div>
+                        <div class="flowchart-node">
+                             <h4 class="font-bold">2. 监督微调 (SFT)</h4>
+                            <p class="text-sm text-slate-500">使用“指令-代码”数据对<br>教会模型遵循指令</p>
+                        </div>
+                        <div class="flowchart-arrow hidden md:block"></div>
+                        <div class="w-px h-8 bg-sky-500 md:hidden"></div>
+                        <div class="flowchart-node">
+                            <h4 class="font-bold">3. 专用模型</h4>
+                            <p class="text-sm text-slate-500">生成准确、可靠、<br>符合上下文的代码</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="context-comparison">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">核心分歧：两种代码库理解哲学</h2>
+                    <p class="mt-2 text-lg text-slate-600">AI如何“读懂”整个项目？Claude和Cursor选择了截然不同的技术路径。</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-8 flex flex-col">
+                        <h3 class="text-2xl font-semibold text-slate-700 mb-2 text-center">Claude: 巨型上下文的“全局视野”</h3>
+                        <p class="text-center text-slate-500 mb-6 flex-grow">其核心逻辑依赖于模型本身强大的长文本处理能力，将大量甚至整个代码库动态载入一个巨大的上下文窗口中进行实时分析。</p>
+                        <div class="chart-container h-80">
+                            <canvas id="contextWindowChart"></canvas>
+                        </div>
+                         <div class="mt-6">
+                            <p class="text-sm text-slate-600">此图表展示了近年来LLM上下文窗口容量的指数级增长。Claude 3的200K词元窗口是这一趋势的体现，允许其在不进行预先索引的情况下，直接“看到”数十万行代码，从而理解项目依赖关系和编码风格。这种方法的优势是灵活性高，但挑战在于高昂的计算成本和潜在的延迟。</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-8 flex flex-col">
+                        <h3 class="text-2xl font-semibold text-slate-700 mb-2 text-center">Cursor: 语义索引的“精准地图”</h3>
+                         <p class="text-center text-slate-500 mb-6 flex-grow">通过主动为代码库建立一个可搜索的“语义地图”，在交互时精准地检索最相关的代码片段，注入到模型的提示中。</p>
+                        <div class="space-y-4 pt-8 pb-4 flex-grow flex flex-col justify-center">
+                            <div class="flowchart-node !border-pink-400">代码库</div>
+                            <div class="self-center transform rotate-90 flowchart-arrow !w-8"></div>
+                            <div class="flowchart-node !border-pink-400">基于AST的智能分块</div>
+                             <div class="self-center transform rotate-90 flowchart-arrow !w-8"></div>
+                            <div class="flowchart-node !border-pink-400">生成向量嵌入</div>
+                            <div class="self-center transform rotate-90 flowchart-arrow !w-8"></div>
+                             <div class="flowchart-node !border-pink-400">存入可检索的向量数据库</div>
+                        </div>
+                         <div class="mt-6">
+                            <p class="text-sm text-slate-600">Cursor的逻辑是预处理。它使用tree-sitter等工具将代码按逻辑结构（如函数、类）分割，然后将这些代码块转换为数值向量（嵌入）。这种方法的优势在于检索速度快、上下文精确，能有效处理海量代码库。其代价是需要初始索引时间和维护成本。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section id="market-landscape">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">开发者驾驶舱：主流交互范式</h2>
+                    <p class="mt-2 text-lg text-slate-600">AI以不同形态融入开发工作流，满足了多样化的使用偏好和场景需求。</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <div class="chart-container h-96">
+                            <canvas id="paradigmChart"></canvas>
+                        </div>
+                    </div>
+                     <div class="space-y-6">
+                        <div class="p-6 bg-white rounded-lg shadow-md">
+                            <h4 class="font-bold text-lg text-sky-600">IDE 插件 (Plugins)</h4>
+                            <p class="text-slate-600 mt-1">集成于现有IDE中（如VS Code, JetBrains），提供代码补全和聊天功能。这是目前最主流的方式，因为它无缝融入了开发者熟悉的环境。</p>
+                        </div>
+                        <div class="p-6 bg-white rounded-lg shadow-md">
+                            <h4 class="font-bold text-lg text-sky-600">AI原生IDE (AI-Native IDEs)</h4>
+                            <p class="text-slate-600 mt-1">从零开始构建，将AI作为核心功能深度集成，而非附加项。Cursor是典型代表，旨在提供更原生、更强大的AI体验。</p>
+                        </div>
+                        <div class="p-6 bg-white rounded-lg shadow-md">
+                            <h4 class="font-bold text-lg text-sky-600">终端代理 (Terminal Agents)</h4>
+                            <p class="text-slate-600 mt-1">在命令行中运行，以对话方式接收指令并自主执行任务（如编辑文件、运行测试）。Claude Code开创了这一方向。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section id="head-to-head">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">同台竞技：关键能力对比</h2>
+                    <p class="mt-2 text-lg text-slate-600">各工具在核心能力上各有千秋，选择取决于项目的具体需求和开发者的偏好。</p>
+                </div>
+                 <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-slate-700 mb-4">多维度性能雷达图</h3>
+                            <p class="text-slate-600 mb-6">此雷达图直观地比较了三种代表性工具在六个关键维度上的表现。Cursor在代码库理解和上下文精度上领先，Claude Code以其强大的代理行为脱颖而出，而典型的IDE插件则在易用性和集成速度上占优。</p>
+                        </div>
+                        <div class="chart-container h-96">
+                            <canvas id="comparisonRadarChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="challenges">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">前行之路：挑战与缓解策略</h2>
+                    <p class="mt-2 text-lg text-slate-600">AI代码生成并非完美无瑕，理解并应对其局限性是负责任使用的关键。</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold text-slate-700 mb-3">👻 模型幻觉 (Hallucination)</h3>
+                        <p class="text-slate-600">AI可能“一本正经”地生成不存在的API或错误的代码。主要缓解策略是**检索增强生成(RAG)**，即在生成时从可信的文档中检索信息，以“锚定”模型的输出，确保其基于事实。</p>
+                    </div>
+                     <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold text-slate-700 mb-3">🧱 技术债务 (Technical Debt)</h3>
+                        <p class="text-slate-600">AI生成的代码可能在性能、可维护性或编码规范上不达标。缓解措施包括**严格的代码审查、自动化质量门禁**，以及利用AI辅助的代码分析工具来确保质量。</p>
+                    </div>
+                     <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold text-slate-700 mb-3">⚖️ 知识产权 (IP Issues)</h3>
+                        <p class="text-slate-600">模型可能生成与其训练数据中受版权保护代码相似的片段。解决方案包括使用**代码相似性检测工具**进行IP扫描，并确保遵守开源软件的许可协议。</p>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-lg shadow-lg p-8 mt-8">
+                     <h3 class="text-2xl font-semibold text-slate-700 mb-4 text-center">AI生成代码中的潜在安全风险</h3>
+                     <p class="text-slate-600 mb-6 text-center max-w-2xl mx-auto">AI模型可能无意中复制其训练数据中存在的不安全编码实践。因此，对AI生成的代码进行严格的安全审计至关重要。</p>
+                     <div class="chart-container h-80">
+                         <canvas id="securityRiskChart"></canvas>
+                     </div>
+                 </div>
+            </section>
+
+             <section id="future">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">未来展望：迈向自主软件工程</h2>
+                    <p class="mt-2 text-lg text-slate-600">AI的角色正在从被动的“助手”向主动的“合作伙伴”演进，重塑开发者的工作内容。</p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <h3 class="text-2xl font-semibold text-slate-700 mb-6">从辅助到自主：AI能力的进化时间线</h3>
+                        <div class="relative">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="font-bold text-lg">阶段一: 代码补全</h4>
+                                <p class="text-slate-600">基于本地上下文预测并补全单行或代码块。</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="font-bold text-lg">阶段二: 对话式助手</h4>
+                                <p class="text-slate-600">通过聊天界面理解自然语言，提供解决方案和解释。</p>
+                            </div>
+                             <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="font-bold text-lg">阶段三: 代理式工具</h4>
+                                <p class="text-slate-600">具备与开发环境交互的能力，可自主执行多步任务。</p>
+                            </div>
+                            <div class="timeline-item border-l-transparent pb-0">
+                                <div class="timeline-dot"></div>
+                                <h4 class="font-bold text-lg">未来: 自主AI代理</h4>
+                                <p class="text-slate-600">独立完成从需求分析到功能交付的整个开发周期。</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="bg-white rounded-lg shadow-lg p-8">
+                        <h3 class="text-2xl font-semibold text-slate-700 mb-6">开发者角色转变：从“编码者”到“编排者”</h3>
+                         <p class="text-slate-600 mb-6">随着AI承担更多编码任务，开发者的工作重心将向上游转移，更侧重于战略性思考、系统设计和对AI工作的监督与验证。</p>
+                        <div class="chart-container h-96">
+                            <canvas id="roleShiftChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center mt-20 pt-8 border-t border-slate-300">
+            <p class="text-slate-500">该信息图基于《AI编程工具底层逻辑深度剖析》报告生成。所有数据和图表仅为概念性说明，旨在直观呈现报告中的核心观点。</p>
+        </footer>
+
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    const wrapLabel = (label, maxLength = 16) => {
+        if (typeof label !== 'string' || label.length <= maxLength) {
+            return label;
+        }
+        const words = label.split(' ');
+        const lines = [];
+        let currentLine = '';
+        for (const word of words) {
+            if ((currentLine + ' ' + word).trim().length > maxLength) {
+                if (currentLine) lines.push(currentLine);
+                currentLine = word;
+            } else {
+                currentLine = (currentLine + ' ' + word).trim();
+            }
+        }
+        if (currentLine) lines.push(currentLine);
+        return lines;
+    };
+
+    const tooltipTitleCallback = (tooltipItems) => {
+        const item = tooltipItems[0];
+        let label = item.chart.data.labels[item.dataIndex];
+        return Array.isArray(label) ? label.join(' ') : label;
+    };
+    
+    const sharedChartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                labels: {
+                    color: '#475569',
+                    font: {
+                        family: "'Noto Sans SC', sans-serif",
+                    }
+                }
+            },
+            tooltip: {
+                titleFont: { family: "'Noto Sans SC', sans-serif" },
+                bodyFont: { family: "'Noto Sans SC', sans-serif" },
+                callbacks: {
+                    title: tooltipTitleCallback
+                }
+            }
+        },
+        scales: {
+            y: {
+                ticks: { color: '#64748B' },
+                grid: { color: '#E2E8F0' }
+            },
+            x: {
+                ticks: { color: '#64748B' },
+                grid: { color: '#E2E8F0' }
+            }
+        }
+    };
+
+    const brilliantBlues = {
+        primary: '#0EA5E9',
+        secondary: '#38BDF8',
+        tertiary: '#7DD3FC',
+        accent: '#F472B6',
+        light: '#A5D8FF',
+    };
+
+    new Chart(document.getElementById('contextWindowChart'), {
+        type: 'line',
+        data: {
+            labels: ['2020', '2021', '2022', '2023', '2024'],
+            datasets: [{
+                label: 'LLM上下文窗口 (千词元)',
+                data: [4, 8, 32, 100, 200],
+                borderColor: brilliantBlues.primary,
+                backgroundColor: 'rgba(14, 165, 233, 0.1)',
+                fill: true,
+                tension: 0.4,
+                pointBackgroundColor: brilliantBlues.primary,
+                pointRadius: 5
+            }]
+        },
+        options: { ...sharedChartOptions }
+    });
+
+    new Chart(document.getElementById('paradigmChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['IDE 插件', 'AI原生IDE', '终端代理'],
+            datasets: [{
+                label: '开发者偏好分布',
+                data: [65, 25, 10],
+                backgroundColor: [
+                    brilliantBlues.primary,
+                    brilliantBlues.secondary,
+                    brilliantBlues.tertiary,
+                ],
+                borderColor: '#F0F4F8',
+                borderWidth: 4,
+                hoverOffset: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: { color: '#475569', font: { size: 14 } }
+                },
+                tooltip: { callbacks: { title: tooltipTitleCallback } }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('comparisonRadarChart'), {
+        type: 'radar',
+        data: {
+            labels: [
+                '全代码库理解', 
+                '上下文精确度', 
+                '代理式自主性',
+                '易用性/集成速度',
+                '成本效益'
+            ],
+            datasets: [
+                {
+                    label: 'Cursor',
+                    data: [9, 9, 6, 7, 7],
+                    borderColor: brilliantBlues.primary,
+                    backgroundColor: 'rgba(14, 165, 233, 0.2)',
+                    pointBackgroundColor: brilliantBlues.primary,
+                },
+                {
+                    label: 'Claude Code',
+                    data: [8, 7, 9, 6, 6],
+                    borderColor: brilliantBlues.accent,
+                    backgroundColor: 'rgba(244, 114, 182, 0.2)',
+                    pointBackgroundColor: brilliantBlues.accent,
+                },
+                {
+                    label: '典型IDE插件',
+                    data: [5, 6, 4, 9, 8],
+                    borderColor: brilliantBlues.secondary,
+                    backgroundColor: 'rgba(56, 189, 248, 0.2)',
+                    pointBackgroundColor: brilliantBlues.secondary,
+                }
+            ]
+        },
+        options: {
+            ...sharedChartOptions,
+            scales: {
+                r: {
+                    angleLines: { color: '#CBD5E1' },
+                    grid: { color: '#E2E8F0' },
+                    pointLabels: {
+                        color: '#334155',
+                        font: { size: 12 }
+                    },
+                    ticks: {
+                        backdropColor: 'transparent',
+                        color: '#64748B'
+                    },
+                    suggestedMin: 0,
+                    suggestedMax: 10
+                }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('securityRiskChart'), {
+        type: 'bar',
+        data: {
+            labels: ['不安全的编码实践', '硬编码密钥', 'SQL注入', '跨站脚本(XSS)'].map(l => wrapLabel(l)),
+            datasets: [{
+                label: '常见风险百分比',
+                data: [45, 25, 20, 10],
+                backgroundColor: [
+                    brilliantBlues.primary,
+                    brilliantBlues.secondary,
+                    brilliantBlues.tertiary,
+                    brilliantBlues.light,
+                ],
+                borderRadius: 4,
+                barPercentage: 0.6
+            }]
+        },
+        options: {
+            ...sharedChartOptions,
+            indexAxis: 'y',
+            plugins: {
+                legend: { display: false }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('roleShiftChart'), {
+        type: 'bar',
+        data: {
+            labels: ['传统开发者', 'AI增强型开发者'],
+            datasets: [
+                {
+                    label: '编码与调试',
+                    data: [60, 20],
+                    backgroundColor: brilliantBlues.primary,
+                },
+                {
+                    label: '系统设计与架构',
+                    data: [25, 45],
+                    backgroundColor: brilliantBlues.secondary,
+                },
+                {
+                    label: 'AI监督与战略规划',
+                    data: [5, 25],
+                    backgroundColor: brilliantBlues.tertiary,
+                },
+                {
+                    label: '会议与沟通',
+                    data: [10, 10],
+                    backgroundColor: '#94A3B8',
+                }
+            ]
+        },
+        options: {
+            ...sharedChartOptions,
+            scales: {
+                x: { stacked: true },
+                y: { stacked: true }
+            }
+        }
+    });
+
+});
+</script>
+</body>
+</html>

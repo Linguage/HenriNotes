@@ -39,9 +39,9 @@
 - [帝王年表](WhatsMore/历史年表/帝王年表.md)
 - [姓氏的起源](WhatsMore/姓氏的起源.md)
 - STORM-业余研究报告
-	- [隋唐大运河对鸟类种群的生态影响](NSDR-业余研究报告/历史研究/隋唐大运河对鸟类种群的生态影响/隋唐大运河对鸟类种群的生态影响.md)
-	- [2025年航空货运市场变化预测，聚焦中国](NSDR-业余研究报告/2025年航空货运市场变化预测/2025年航空货运市场变化预测，聚焦中国.md)
-	- [意识的科学探索](NSDR-业余研究报告/意识的科学研究/意识的科学探索.md)
+	- [隋唐大运河对鸟类种群的生态影响](AINotes/Deep_Research/历史研究/隋唐大运河对鸟类种群的生态影响/隋唐大运河对鸟类种群的生态影响.md)
+	- [2025年航空货运市场变化预测，聚焦中国](AINotes/Deep_Research/2025年航空货运市场变化预测/2025年航空货运市场变化预测，聚焦中国.md)
+	- [意识的科学探索](AINotes/Deep_Research/意识的科学研究/意识的科学探索.md)
 
 ## Rosseta
 
@@ -59,7 +59,7 @@
 
 - [翻译工作：访谈、文章、课程](./Rosseta/readme.md)
 	- [高德纳口述历史](../AI-Rosseta/Rosseta_Notes/Align2Thinkers/图灵奖计划/Knuth/高德纳口述历史.md)
-	- [CS50x 2025 - Lecture 0 - Scratch](../AI-Rosseta/油管笔记/Courses/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
+	- [CS50x 2025 - Lecture 0 - Scratch](../AI-Rosseta/开放资源/Courses/CS50/CS50x%202025%20-%20Lecture%200%20-%20Scratch.md)
 	- [Terence_Tao_Good_Math](../AI-Rosseta/Rosseta_Notes/Align2Thinkers/菲尔兹计划/TerenceTao/Terence_Tao_Good_Math.md)
 	- [保罗·格雷厄姆：最好的文章](../AI-Rosseta/Rosseta_Notes/Align2Thinkers/PaulGraham/最好的文章.md)
 
