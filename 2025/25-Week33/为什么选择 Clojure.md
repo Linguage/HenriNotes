@@ -24,7 +24,7 @@
 - 作者列举了选择 Clojure 的唯一理由：“表达经济性”（Economy of Expression）。
 - Clojure 代码更简洁，字符更少，开发时间更短，思维负担更轻。
 - 这种简洁源于 Clojure 极少的语法和语法规则。作者强调：“Clojure 几乎没有语法或语法规则。”
-- 通过示例代码，作者展示了 Clojure 的语法极简：(println (take 25 (map #(* % %) (range))))
+- 通过示例代码，作者展示了 Clojure 的语法极简：`(println (take 25 (map #(* % %) (range))))`
 
   
 
@@ -35,9 +35,14 @@
 - ‎⁠#⁠ 表示后面的列表是一个匿名函数
 - ‎⁠%⁠ 表示匿名函数的第一个参数
 
-- 作者指出，这段代码已经涵盖了 Clojure 80% 的语法。进一步举例：(defn square [x] (* x x))
+- 作者指出，这段代码已经涵盖了 Clojure 80% 的语法。进一步举例：
+
+```clojure
+(defn square [x] (* x x))
 
 (println (take 25 (map square (range))))
+```
+
 
   
 
@@ -51,7 +56,10 @@
 
 **与主流语言的对比**
 
-- 作者将 Clojure 与 Java 进行对比，展示了同样功能的 Java 代码：public class SquaresOfIntegers {
+- 作者将 Clojure 与 Java 进行对比，展示了同样功能的 Java 代码：
+- 
+```java
+ public class SquaresOfIntegers {
 
   public static void main(String[] args) {
 
@@ -62,6 +70,8 @@
   }
 
 }
+```
+
 
   
 
@@ -119,7 +129,7 @@
 
   
 
-**框架与心智模型（****Framework & Mindset****）**
+**框架与心智模型（Framework & Mindset）**
 
 - **表达经济性为核心原则**：选择编程语言时，优先考虑表达经济性，即用最少的语法和代码表达最复杂的逻辑。
 - **极简语法带来高效开发**：极简语法不仅适合小型项目，更适合大型系统开发。减少语法负担，提升开发效率和可维护性。
