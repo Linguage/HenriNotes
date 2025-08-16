@@ -53,15 +53,15 @@ Bloomberg终端是由Bloomberg L.P.推出的一套专业金融数据与交易系
 
 **终端产品体系与扩展功能**
 
-- **核心终端（****Core Terminal****）**  
+- **核心终端（Core Terminal）**  
     原始系统由四个窗口（Panel）组成，每个窗口可独立运行命令行，实时显示不同市场和资产的数据。多屏操作让用户能同时监控多项数据，提升分析和决策效率。2012年，Bloomberg推出“Bloomberg NEXT”升级项目，投入1亿美元提升系统可用性和功能发现性。
-- **Launchpad****（启动板）**  
+- **Launchpad（启动板）**  
     Launchpad是可定制的显示界面，由多个小窗口（Component）组成，每个窗口专注显示一组数据。例如，股票经纪人可设置一个窗口实时显示30只股票价格，无需在四个终端窗口间频繁切换。常用命令如{BLP GO}启动Launchpad，{PDFB GO}设置自动启动，{LLP GO}将终端窗口转为Launchpad组件。
-- **API****与数据集成**  
+- **API与数据集成**  
     Bloomberg Open API（BLPAPI）允许第三方应用（如Excel）访问终端数据，支持流式、历史和参考市场数据。用户可利用Excel插件或SDK（支持Wolfram Language、C、C++、Java、.NET、Perl、Python等多种语言和平台）开发自定义分析工具，实现数据自动化处理和深度集成。
-- **金融工具全球标识符（****FIGI****）**  
+- **金融工具全球标识符（FIGI）**  
     2021年，Bloomberg获得FIGI（Financial Instrument Global Identifier）监管认证。FIGI是12位字母数字的开放标准唯一标识符，适用于股票、期权、衍生品、债券、货币等金融产品。每个FIGI永久唯一，不会重复，用于区分不同证券及其交易所。FIGI由Object Management Group定义，Bloomberg负责发布，与CUSIP（美国证券识别码）竞争。
-- **法律实体标识符（****LEI****）**  
+- **法律实体标识符（LEI）**  
     2022年，Bloomberg发布LEI（Legal Entity Identifier）3.1通用数据格式，并获得基金LEI发行资质，帮助企业识别法律实体风险，满足监管要求。LEI与FIGI同属Bloomberg开放符号体系管理。
 
   
@@ -75,7 +75,7 @@ Bloomberg终端是由Bloomberg L.P.推出的一套专业金融数据与交易系
 
   
 
-**框架与心智模型（****Framework & Mindset****）**
+**框架与心智模型（Framework & Mindset）**
 
 - **信息获取与决策支持框架**
 
