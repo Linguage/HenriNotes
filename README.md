@@ -9,33 +9,33 @@
 ### 📂 [2025 - 年度笔记](./2025/)
 此目录包含按时间记录的年度笔记、每周回顾和每日新闻摘要。它是我持续学习和追踪兴趣主题的日志。
 
-- **每周总结**: `25-Week1`, `25-Week2`, 等。
-- **每日新闻（DailyNews）**: `DailyNews/` 高频更新2025年2~4月之间的新闻摘录与简评，支持按日期与主题双重检索。
-	- 日期索引：[`index.md`](./2025/DailyNews/index_daily.md)
-	- 主题索引：[`index_topics.md`](./2025/DailyNews/index_topics.md)
-	- 日志总览：[`README.md`](./2025/DailyNews/README.md)
-- **专题索引**: `专题索引/`
+- **每周内容索引**: [查看全部](./2025/Readme.md#每周内容索引) · 示例：[25-Week1](./2025/25-Week1/_Weekly_Index.md)、[25-Week2](./2025/25-Week2/_Weekly_Index.md)、[25-Week3](./2025/25-Week3/_Weekly_Index.md)
+- **每日新闻（DailyNews）**: [DailyNews/](./2025/DailyNews/) 高频更新2025年2~4月之间的新闻摘录与简评，支持按日期与主题双重检索。
+	- 日期索引：[index.md](./2025/DailyNews/index.md)
+	- 主题索引：[index_topics.md](./2025/DailyNews/index_topics.md)
+	- 日志总览：[README.md](./2025/DailyNews/README.md)
+- **专题索引**: [专题索引/](./2025/专题索引/)
 
 ### 🧠 [AINotes - 与AI的对谈](./AINotes/)
 一个专门用于存放所有与 AI 相关内容的区域。本部分包括对特定主题的深入研究、关于大语言模型的笔记、AI 工具的比较以及保存的对话记录。
 
-- **深度研究**: `Deep_Research/`
-- **AI 工具笔记**: `NotebookLM/`, `Perplexity/`
-- **AI 对话记录**: `AI_Chat/`
+- **深度研究**: [Deep_Research/](./AINotes/Deep_Research/)
+- **AI 工具笔记**: [NotebookLM/](./AINotes/NotebookLM/), [Perplexity/](./AINotes/Perplexity/)
+- **AI 对话记录**: [AI_Chat/](./AINotes/AI_Chat/)
 
 ### ✨ [WhatsMore - 探索与杂项](./WhatsMore/)
 这里汇集了关于历史、写作、个人分析以及其他未能完全归入其他类别的兴趣主题的笔记。
 
-- **个人分析**: `个人分析/`
-- **历史年表**: `历史年表/`
-- **写作与解读**: `如何清晰地写作.md`, `公文解读/`
+- **个人分析**: [个人分析/](./WhatsMore/个人分析/)
+- **历史年表**: [历史年表/](./WhatsMore/历史年表/)
+- **写作与解读**: [如何清晰地写作.md](./WhatsMore/如何清晰地写作.md), [公文解读/](./WhatsMore/公文解读/)
 
 ### 🛠️ [WorkFlow - 工作流程与工具](./WorkFlow/)
 这是我的个人及专业工作流程的实用指南，包括提示工程技巧、开发资源和生产力方法。
 
-- **提示词合集**: `Prompts List.md`, `Prompts-Academic/`
-- **开发笔记**: `前端/`
-- **日常应用**: `DailyUse/`
+- **提示词合集**: [Prompts List.md](./WorkFlow/Prompts%20List.md), [Prompts-Academic/](./WorkFlow/Prompts-Academic/)
+- **开发笔记**: [前端/](./WorkFlow/前端/)
+- **日常应用**: [DailyUse/](./WorkFlow/DailyUse/)
 
 ## 如何使用
 
