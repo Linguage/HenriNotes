@@ -12,7 +12,7 @@
 - **每日新闻**: `DailyNews/`
 - **专题索引**: `专题索引/`
 
-### 🧠 [AINotes - 人工智能](./AINotes/)
+### 🧠 [AINotes - 与AI的对谈](./AINotes/)
 一个专门用于存放所有与 AI 相关内容的区域。本部分包括对特定主题的深入研究、关于大语言模型的笔记、AI 工具的比较以及保存的对话记录。
 - **深度研究**: `Deep_Research/`
 - **AI 工具笔记**: `NotebookLM/`, `Perplexity/`
