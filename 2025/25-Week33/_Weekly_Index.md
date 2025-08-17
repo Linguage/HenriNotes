@@ -1,4 +1,4 @@
-# 25-Week33 - Weekly Index
+# 2025-Week33 - Weekly Index
 
 - [AGI已成伪命题？Sam Altman与专家对"通用人工智能"概念的再思考](AGI已成伪命题？Sam Altman与专家对"通用人工智能"概念的再思考.md) #人工智能 #AGI #哲学
 - [Anthropic CEO Dario Amodei：AI商业化、行业变革与未来展望](Anthropic CEO Dario Amodei：AI商业化、行业变革与未来展望.md) #人工智能 #商业 #访谈
